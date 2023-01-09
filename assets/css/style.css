@@ -228,7 +228,6 @@ footer a {
 
     /* phone */
     h1 {
-        color: green;
         font-size: 3.5rem;
     }
 
@@ -243,13 +242,38 @@ footer a {
     header nav li {
         display: inline-block;
     }
+
+    section h2 {
+        background: #8080808c;
+
+    }
+
 }
 
 @media screen and (min-width: 768px) {
 
     /* mid */
-    h1 {
-        color: blue;
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article {
+
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    aside {
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+    }
+
+    section h2 {
+        background: #8080808c;
+
     }
 }
 
@@ -258,7 +282,12 @@ footer a {
 @media screen and (min-width: 1200px) {
 
     /* LARGE*/
-    h1 {
-        color: red;
+
+
+
+
+    section h2 {
+        background: #8080808c;
+
     }
 }
