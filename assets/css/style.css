@@ -279,11 +279,27 @@ footer a {
 
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1080px) {
 
     /* LARGE*/
+    header {
+        height: 11rem;
+    }
 
+    header div img {
+        float: left;
+    }
 
+    header div p {
+        margin-top: 2rem;
+        float: left;
+    }
+
+    header nav {
+        margin-top: 2rem;
+
+        float: right;
+    }
 
 
     section h2 {
