@@ -306,4 +306,26 @@ footer a {
         background: #8080808c;
 
     }
+
+
+    /* ******flex css ***** */
+
+    .f-container {
+        display: flex;
+    }
+
+    .f-video {
+        flex: 1;
+
+    }
+
+    .f-section {
+        flex: 1;
+        border-radius: 20px;
+    }
+
+    .f-child {
+        flex: 1;
+
+    }
 }
